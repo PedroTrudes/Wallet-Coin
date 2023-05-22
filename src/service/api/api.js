@@ -1,0 +1,1 @@
+//https://api.coingecko.com/api/v3/coins/list => link da api das moedas online

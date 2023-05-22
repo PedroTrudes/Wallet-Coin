@@ -1,10 +1,10 @@
-import './App.css'
+import { Outlet } from "react-router-dom"
 
 function App() {
-
   return (
     <>
-      <h1>Hello Wallet</h1>
+      <h1>coinn wallet</h1>
+      <Outlet />
     </>
   )
 }
