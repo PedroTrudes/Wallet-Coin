@@ -1,0 +1,32 @@
+.containerHigh{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerHigh .high{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 95px;
+    background-color: #260735;
+    border-radius: 55px;
+
+}
+
+.containerHigh .high .highItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 33%;
+}
+
+.containerHigh .high .highItem span{
+    font-size: 20px;
+    font-weight: 100;
+}

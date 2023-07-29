@@ -1,0 +1,23 @@
+.containerHome{
+    width: 100%;
+    height: auto;
+}
+
+.coinPopular{
+    padding: 45px;
+    margin: 120px 0px;
+}
+
+.dividerSection{
+    width: 50%;
+    height: 1px;
+    background-color: aliceblue;
+}
+
+.coinPopular .containerCoin{
+    margin-top: 62px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}

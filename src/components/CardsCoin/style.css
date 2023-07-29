@@ -1,0 +1,48 @@
+.card{
+    background: rgb(38,7,53);
+    background: linear-gradient(35deg, rgba(38,7,53,0.8992628992628993) -30%, rgba(196,180,203,1) 47%, rgba(38,7,53,0.914004914004914) 130%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 286px;
+    height: 309px;
+    margin: 15px 0px;
+}
+
+.card .logoCoin img{
+    margin-right: 15px;
+    height: 60px;
+    width: 60px;
+}
+
+.card .logoCoin span{
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cardDivider{
+    background: linear-gradient(100deg, #C4B4CB, #3A0B4F, #C4B4CB);;
+    margin: 18px 0px;
+    height: 2px;
+    width: 100%;
+}
+
+.card .coinInfos{
+    align-items: center;
+    background-color: #C4B4CB;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    display: flex;
+    flex-direction: row;
+    height: 33px;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+.card .coinInfos span{
+    color: #260735;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px 15px;
+}

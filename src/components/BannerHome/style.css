@@ -1,0 +1,15 @@
+.containerBanner{
+    align-items: center;
+    background-image: url(../../assets/banners/BannerHero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 408px;
+    justify-content: center;
+    text-align: center;
+}
+
+.containerBanner h1{
+    max-width: 50%;
+}
