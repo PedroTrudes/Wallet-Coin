@@ -23,6 +23,25 @@ function HomePages() {
           <CardsCoin />
         </div>
       </section>
+      <section className='coinAboutUs'>
+        <div className="containerAboutTitle">
+          <h2>Sobre nos</h2>
+        </div>
+        <div className="containerAbout">
+          <div className="containerAboutText">
+            <span>Analise Rapida e Facil</span>
+            <p>Viemos para facilitar a sua analise de mercado
+              das criptomoedas de forma simples e rapida
+            </p>
+          </div>
+          <div className="containerAboutCard">
+            <div className="aboutBallsCoinOne"></div>
+            <CardsCoin />
+            <div className="aboutBallsCoinTwo"></div>
+          </div>
+          <div className="aboutEffectShadow"></div> 
+        </div>
+      </section>
     </div>
   )
 }
