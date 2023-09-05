@@ -17,7 +17,9 @@ function HomePages() {
       <section className='coinPopular'>
         <div className='containerPopular'>
           <h2>As mais populares</h2>
-          <div className='dividerSection'></div>
+          <div className="containerDividerPopular">
+            <div className='dividerSection'></div>
+          </div>
         </div>
         <div className='containerCoin'>
           <CardsCoin />
@@ -28,7 +30,9 @@ function HomePages() {
       <section className='coinAboutUs'>
         <div className="containerAboutTitle">
           <h2>Sobre nos</h2>
-          <div className="dividerSection"></div> 
+          <div className="containerDividerAbout">
+            <div className='dividerSection'></div>
+          </div>
         </div>
         <div className="containerAbout">
           <div className="containerAboutText">
@@ -48,7 +52,9 @@ function HomePages() {
       <section className='CoinsList'>
           <div className="containerCoinsTitle">
             <h2>Todas as Moedas</h2>
-            <div className="dividerSection"></div> 
+            <div className="containerDividerCoins">
+              <div className='dividerSection'></div>
+            </div>
           </div>
         <div className="containerCoinsList">
           <TableCoins />
