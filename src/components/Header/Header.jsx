@@ -84,6 +84,66 @@ function Header() {
                     <span>^0.10%</span>
                 </div>
             </div>
+            <div className="containerHeaderCoins">
+                <div className="containerCoinsImage">
+                    <img src="#" alt="Coin" />
+                    <span>BTC</span>
+                </div>
+                <div className="containerCoinsValues">
+                    <span>$1.00</span>
+                    <span>^0.10%</span>
+                </div>
+            </div>
+            <div className="containerHeaderCoins">
+                <div className="containerCoinsImage">
+                    <img src="#" alt="Coin" />
+                    <span>BTC</span>
+                </div>
+                <div className="containerCoinsValues">
+                    <span>$1.00</span>
+                    <span>^0.10%</span>
+                </div>
+            </div>
+            <div className="containerHeaderCoins">
+                <div className="containerCoinsImage">
+                    <img src="#" alt="Coin" />
+                    <span>BTC</span>
+                </div>
+                <div className="containerCoinsValues">
+                    <span>$1.00</span>
+                    <span>^0.10%</span>
+                </div>
+            </div>
+            <div className="containerHeaderCoins">
+                <div className="containerCoinsImage">
+                    <img src="#" alt="Coin" />
+                    <span>BTC</span>
+                </div>
+                <div className="containerCoinsValues">
+                    <span>$1.00</span>
+                    <span>^0.10%</span>
+                </div>
+            </div>
+            <div className="containerHeaderCoins">
+                <div className="containerCoinsImage">
+                    <img src="#" alt="Coin" />
+                    <span>BTC</span>
+                </div>
+                <div className="containerCoinsValues">
+                    <span>$1.00</span>
+                    <span>^0.10%</span>
+                </div>
+            </div>
+            <div className="containerHeaderCoins">
+                <div className="containerCoinsImage">
+                    <img src="#" alt="Coin" />
+                    <span>BTC</span>
+                </div>
+                <div className="containerCoinsValues">
+                    <span>$1.00</span>
+                    <span>^0.10%</span>
+                </div>
+            </div>
         </div>  
     )
 }

@@ -1,8 +1,10 @@
 .containerHeader{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 19px 0px;
+
+    max-width: 100%;
+    padding: 19px;
+    overflow-x: hidden;
 }
 .containerHeaderCoins{
     background: linear-gradient(95deg, rgba(38,7,53,0.8992628992628993) -30%, rgba(196,180,203,1) 47%, rgba(38,7,53,0.914004914004914) 130%);
@@ -13,6 +15,8 @@
     font-size: 10px;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 15px;
+    animation: animationScrollCards 35s infinite ease-in;
     
 }
 .containerCoinsImage{
@@ -21,4 +25,13 @@
 
 .containerCoinsValues{
     padding: 0px 8px;
+}
+
+@keyframes animationScrollCards {
+    from{
+        transform: translateX(2300px);
+    }
+    to{
+        transform: translateX(-2300px);
+    }
 }

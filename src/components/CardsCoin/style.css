@@ -1,4 +1,6 @@
 .card{
+    position: relative;
+    z-index: 20px;
     background: rgb(38,7,53);
     background: linear-gradient(35deg, rgba(38,7,53,0.8992628992628993) -30%, rgba(196,180,203,1) 47%, rgba(38,7,53,0.914004914004914) 130%);
     border-radius: 5px;
@@ -8,6 +10,7 @@
     width: 286px;
     height: 309px;
     margin: 15px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .card .logoCoin img{

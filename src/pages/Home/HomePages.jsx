@@ -28,6 +28,7 @@ function HomePages() {
         </div>
       </section>
       <section className='coinAboutUs'>
+          <div className="containerBackground"></div>
         <div className="containerAboutTitle">
           <h2>Sobre nos</h2>
           <div className="containerDividerAbout">
