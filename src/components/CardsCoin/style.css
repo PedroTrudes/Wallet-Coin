@@ -10,7 +10,13 @@
     width: 286px;
     height: 309px;
     margin: 15px 0px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
+    box-shadow: 0 4px 30px #0000009a;
+}
+
+.logoCoin{
+    display: flex;
+    align-items: center;
 }
 
 .card .logoCoin img{

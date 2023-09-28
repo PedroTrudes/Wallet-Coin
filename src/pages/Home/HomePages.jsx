@@ -14,6 +14,7 @@ function HomePages() {
     <div className='containerHome'>
       <BannerHome />
       <Highlights />
+      
       <section className='coinPopular'>
         <div className='containerPopular'>
           <h2>As mais populares</h2>
@@ -27,6 +28,7 @@ function HomePages() {
           <CardsCoin />
         </div>
       </section>
+
       <section className='coinAboutUs'>
           <div className="containerBackground"></div>
         <div className="containerAboutTitle">
@@ -44,12 +46,12 @@ function HomePages() {
           </div>
           <div className="containerAboutCard">
             <div className="aboutBallsCoinOne"></div>
-            <CardsCoin />
             <div className="aboutBallsCoinTwo"></div>
+            <CardsCoin />
           </div>
-          <div className="aboutEffectShadow"></div> 
         </div>
       </section>
+
       <section className='CoinsList'>
           <div className="containerCoinsTitle">
             <h2>Todas as Moedas</h2>
@@ -61,6 +63,7 @@ function HomePages() {
           <TableCoins />
         </div>
       </section>
+
       <section className="news">
         <div className="newContainerApresentation">
           <div className="newImageBackground"></div>

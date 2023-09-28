@@ -1,10 +1,11 @@
 import './style.css';
+import coinExample from '../../assets/icons/bitcoinExample.png'
 
 function CardsCoin() {
     return (
         <div className='card'>
             <div className='logoCoin'>
-                <img src="#" alt="BTC"/>
+                <img src={coinExample} alt="BTC"/>
                 <span>BTC</span>
             </div>
             <div className='cardDivider'></div>
