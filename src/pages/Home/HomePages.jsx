@@ -8,6 +8,7 @@ import CardsCoin from '../../components/CardsCoin/CardsCoin.jsx';
 import './style.css';
 import TableCoins from '../../components/TableCoins/TableCoins.jsx';
 import NewsList from '../../components/NewsList/NewsList.jsx';
+import TitleComponent from '../../components/TitleComponent/TitleComponent.jsx';
 
 function HomePages() {
   return (
@@ -17,7 +18,7 @@ function HomePages() {
       
       <section className='coinPopular'>
         <div className='containerPopular'>
-          <h2>As mais populares</h2>
+          <TitleComponent titleText="As mais populares"/>
           <div className="containerDividerPopular">
             <div className='dividerSection'></div>
           </div>
@@ -32,7 +33,7 @@ function HomePages() {
       <section className='coinAboutUs'>
           <div className="containerBackground"></div>
         <div className="containerAboutTitle">
-          <h2>Sobre nos</h2>
+          <TitleComponent titleText="Sobre nos" />
           <div className="containerDividerAbout">
             <div className='dividerSection'></div>
           </div>
@@ -54,7 +55,7 @@ function HomePages() {
 
       <section className='CoinsList'>
           <div className="containerCoinsTitle">
-            <h2>Todas as Moedas</h2>
+            <TitleComponent titleText="Todas as Moedas" />
             <div className="containerDividerCoins">
               <div className='dividerSection'></div>
             </div>
@@ -66,10 +67,10 @@ function HomePages() {
 
       <section className="news">
         <div className="newContainerApresentation">
-          <div className="newImageBackground"></div>
-          <h2>Atualizaçãos mais recentes apenas para você</h2>
+          <div className="newImageBackgroundRight"></div>
+          <TitleComponent titleText="Atualizaçãos mais recentes apenas para você" />
           <p>Leia as últimas Atualizaçãos, novidade e todas as noticias sobre criptomoedas!</p>
-          <div className="newImageBackground"></div>
+          <div className="newImageBackgroundLeft"></div>
         </div>
         <div className="newContainerInformationSlide">
           <NewsList />

@@ -22,6 +22,7 @@ function Footer() {
             <div className="DividerFooter"></div>
             <div className="containerInformationFooter">
                 <p>Se inscreva para receber atualizações todos os meses sobre as criptomoedas</p>
+
                 <div>
                     <input type="text" placeholder="Coloque seu email aqui..."/>
                     <button>Subscrib</button>

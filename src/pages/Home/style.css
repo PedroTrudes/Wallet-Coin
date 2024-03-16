@@ -96,6 +96,54 @@
     padding: 45px;
 }
 
+/*Lista newslatter */
+.news{
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+.newContainerApresentation{
+    padding: 65px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+}
+.newImageBackgroundRight{
+    background-image: url(../../assets/animations/ballsright.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 701px;
+    width: 301px;
+    position: absolute;
+    right: 0%;
+}
+
+.newImageBackgroundLeft{
+    background-image: url(../../assets/animations/ballsleft.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 701px;
+    width: 301px;
+    position: absolute;
+    left: 0%;
+    top: 5%;
+}
+
+.newContainerApresentation h2{
+    max-width: 25%;
+}
+.newContainerApresentation p{
+    max-width: 40%;
+}
+
+.newContainerInformationSlide{
+    display: flex;
+    padding: 45px;
+}
+
 /* Pacotes de animações usadas na HOME*/
 @keyframes animationBallOne {
     0%{
