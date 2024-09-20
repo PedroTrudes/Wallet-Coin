@@ -11,6 +11,22 @@ import NewsList from '../../components/NewsList/NewsList.jsx';
 import TitleComponent from '../../components/TitleComponent/TitleComponent.jsx';
 
 function HomePages() {
+
+  const newsLatterJSON = [{
+    dataPost: "Fevereiro 2023",
+    tituloPost: "Warner music Goes 'WMC' for Blockchain gamming",
+    descriptionPost: "it has partnered with blockchain gaming developer splinteriands." 
+},{
+    dataPost: "Fevereiro 2023",
+    tituloPost: "Warneg",
+    descriptionPost: "it has partnered  developer splinteriands."
+},{
+    dataPost: "Fevereiro 2023",
+    tituloPost: "teste de post",
+    descriptionPost: "it has partnered with blockchain gaming  splinteriands."
+}
+
+];
   return (
     <div className='containerHome'>
       <BannerHome />
@@ -73,9 +89,7 @@ function HomePages() {
           <div className="newImageBackgroundLeft"></div>
         </div>
         <div className="newContainerInformationSlide">
-          <NewsList />
-          <NewsList />
-          <NewsList />
+          <NewsList newslatterItens={newsLatterJSON}/>
         </div>
       </section>
     </div>
