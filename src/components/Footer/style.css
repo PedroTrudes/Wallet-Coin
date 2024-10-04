@@ -1,0 +1,105 @@
+.containerFooter{
+    box-sizing: border-box;
+    border-top: 2px solid #C4B4CB;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.footerSocialMedia{
+    display: flex;
+    justify-content: space-between;
+    margin: 140px 45px 45px 45px;
+
+}
+
+.footerSocialIcons{
+    text-align: start;   
+    display: flex;
+    flex-direction: column;
+}
+
+.socialText{
+    font-size: 15px;
+    font-weight: bold;
+    color: #C4B4CB;
+}
+
+.socialIcons{
+    width: 190px;
+}
+.socialIcons img{
+    margin-right: 7px;
+}
+
+.DividerFooter{
+    width: 75%;
+    height: 1px;
+    margin: auto;
+    background-color: #C4B4CB;
+}
+
+.containerInformationFooter{
+    padding: 24px 0px 45px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.containerInformationFooter p {
+    color: #ECE7EE;
+    max-width: 45%;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.containerInformationFooter input{
+    background-color: #3A0B4F;
+    width: 600px;
+    height: 60px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+    padding-left: 20px;
+    color: #C4B4CB;
+    font-size: 20px;
+    margin-right: 12px;
+    outline: none;
+}
+
+.containerInformationFooter button {
+    border-radius: 8px;
+    width: 230px;
+    height: 60px;
+    border: none;
+    color: #C4B4CB;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(196,180,203);
+    background: linear-gradient(270deg, rgba(196,180,203,1) 0%, rgba(58,11,79,1) 100%); 
+    background-position: 20%;
+    background-size: 200%;
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+
+}
+
+.containerInformationFooter button:hover{
+    background-position: 80%;
+    color: #C4B4CB;
+    cursor: pointer;
+}
+
+.inputFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerAssingCreator{
+    text-align: end;
+    padding: 12px 72px;
+    font-size: 15px;
+    font-weight: bold;
+    border-top: 1px solid #C4B4CB;
+}

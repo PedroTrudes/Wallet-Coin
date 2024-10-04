@@ -12,19 +12,84 @@ import TitleComponent from '../../components/TitleComponent/TitleComponent.jsx';
 
 function HomePages() {
 
-  const newsLatterJSON = [{
-    dataPost: "Fevereiro 2023",
+  const newsLatterJSON = [
+[
+  {
+      dataPost: "Fevereiro 2023",
+      tituloPost: "Warner music Goes 'WMC' for Blockchain gamming",
+      descriptionPost: "it has partnered with blockchain gaming developer splinteriands." 
+  },{
+      dataPost: "Fevereiro 2023",
+      tituloPost: "Warneg",
+      descriptionPost: "it has partnered  developer splinteriands."
+  },{
+      dataPost: "Dezembro 2023",
+      tituloPost: "teste de post",
+      descriptionPost: "it has partnered with blockchain gaming  splinteriands."
+  }
+
+],
+[
+  {
+    dataPost: "Janeiro 2023",
     tituloPost: "Warner music Goes 'WMC' for Blockchain gamming",
     descriptionPost: "it has partnered with blockchain gaming developer splinteriands." 
-},{
-    dataPost: "Fevereiro 2023",
+  },{
+    dataPost: "Janeiro 2023",
     tituloPost: "Warneg",
     descriptionPost: "it has partnered  developer splinteriands."
-},{
+  },{
+    dataPost: "Janeiro 2023",
+    tituloPost: "teste de post",
+    descriptionPost: "it has partnered with blockchain gaming  splinteriands."
+  }
+
+],
+[
+  {
+    dataPost: "Agosto 2023",
+    tituloPost: "Warner music Goes 'WMC' for Blockchain gamming",
+    descriptionPost: "it has partnered with blockchain gaming developer splinteriands." 
+  },{
+    dataPost: "Agosto 2023",
+    tituloPost: "Warneg",
+    descriptionPost: "it has partnered  developer splinteriands."
+  },{
     dataPost: "Fevereiro 2023",
     tituloPost: "teste de post",
     descriptionPost: "it has partnered with blockchain gaming  splinteriands."
-}
+  }
+],
+[
+  {
+    dataPost: "Agosto 2023",
+    tituloPost: "Warner music Goes 'WMC' for Blockchain gamming",
+    descriptionPost: "it has partnered with blockchain gaming developer splinteriands." 
+  },{
+    dataPost: "Fevereiro 2023",
+    tituloPost: "Warneg",
+    descriptionPost: "it has partnered  developer splinteriands."
+  },{
+    dataPost: "Agosto 2023",
+    tituloPost: "teste de post",
+    descriptionPost: "it has partnered with blockchain gaming  splinteriands."
+  }
+], 
+[
+  {
+    dataPost: "Dezembro 2023",
+    tituloPost: "Warner music Goes 'WMC' for Blockchain gamming",
+    descriptionPost: "it has partnered with blockchain gaming developer splinteriands." 
+  },{
+    dataPost: "Dezembro 2023",
+    tituloPost: "Warneg",
+    descriptionPost: "it has partnered  developer splinteriands."
+  },{
+    dataPost: "Fevereiro 2023",
+    tituloPost: "teste de post",
+    descriptionPost: "it has partnered with blockchain gaming  splinteriands."
+  }
+] 
 
 ];
   return (
